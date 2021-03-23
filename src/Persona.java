@@ -10,9 +10,9 @@
  */
 public class Persona {
     private String NOMBRE,APELLIDO;
-    private int ID;
+    private String ID;
 
-    public Persona(String NOMBRE, String APELLIDO, int ID) {
+    public Persona(String NOMBRE, String APELLIDO, String ID) {
         this.NOMBRE = NOMBRE;
         this.APELLIDO = APELLIDO;
         this.ID = ID;
@@ -39,11 +39,13 @@ public class Persona {
         this.APELLIDO = APELLIDO;
     }
 
-    public int getID() {
+    public String getID() {
         return ID;
     }
 
-    public void setID(int ID) {
+    public void setID(String ID) {
         this.ID = ID;
     }
+
+    
 }
